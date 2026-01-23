@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" class="overscroll-none">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="{{ site.description }}" />
+
+    <title>{{ site.title }}</title>
+
+    <link rel="icon" href="{{ "/assets/img/favicons/favicon.ico" | relative_url }}" sizes="32x32">
+    <link rel="icon" href="{{ "/assets/img/favicons/favicon.svg" | relative_url }}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ "/assets/img/favicons/apple-touch-icon.png" | relative_url }}">
+
+    <link
+      rel="preload"
+      href="{{ "/assets/fonts/DMMono-Medium.ttf" | relative_url }}"
+      as="font" type="font/ttf"
+      crossorigin
+    >
+    <link
+      rel="preload"
+      href="{{ "/assets/fonts/CourierPrime-Bold.ttf" | relative_url }}"
+      as="font" type="font/ttf"
+      crossorigin
+    >
+
+    <script src="{{ "/build/index.js" | relative_url }}" async></script>
+    {% inline_css build/index.css %}
+  </head>
+  <body class="bg-chocolate text-white">
+    {{ content }}
+  </body>
+</html>

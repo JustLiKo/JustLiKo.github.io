@@ -1,0 +1,8 @@
+- name: Little Lemon Project
+  logo: little_lemon_project.png
+  url: "#TODO"
+  description: "An app for booking a table at the Little Lemon restaurant"
+- name: Pet Friend
+  logo: pet_friend.png
+  url: "#TODO"
+  description: "An app with pets near you who are ready for adoption and waiting for a loving home"

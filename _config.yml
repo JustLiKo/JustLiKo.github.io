@@ -1,0 +1,26 @@
+url: https://Yshevchenko00.github.io
+baseurl: /
+
+github_username: Yshevchenko00
+lang: en
+title: Yelyzaveta Shevchenko
+description: Hi! I'm a UX/UI beginner located in the Netherlands with a strong focus on learning fast and improving my
+  skills step by step. I'm currently exploring how to use AI to work smarter and make digital products more clear and
+  accessible.
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - .github
+  - assets/css
+  - assets/js
+  - build/index.css
+  - .gitignore
+  - .rubocop.yml
+  - .tool-versions
+  - LICENCE.txt
+  - package.json
+  - README.md
+  - tailwind.config.js
+  - yarn.lock
